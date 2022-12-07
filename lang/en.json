@@ -1,0 +1,273 @@
+{
+  "page.home.head.title": "Next.js i18n example",
+  "page.home.head.meta.description": "Next.js i18n example - English",
+  "page.home.title": "Welcome to <b>Next.js i18n tutorial</b>",
+  "page.home.description": "You are currently viewing the homepage in English 🚀",
+
+  "landing.title1.h2": "WE ARE LAZY REVENGERS",
+  "landing.info.p": "we do nothing",
+  
+  "story.story_1_p1": "LAZY REVENGERS was sleeping",
+  "story.story_1_p2": "in the Amazon forest.",
+  
+  "story.story_2_p1": "One day, the forest was destroyed",
+  "story.story_2_p2": "by loggers, leaving no place.",
+  "story.story_2_p3": "for LAZY REVENGERS to live.",
+
+
+
+  "story.story_3_p1": "LAZY REVENGERS",
+  "story.story_3_p2": "was too slow to take refuge",
+  "story.story_3_p3": "while forests were being destroyed",
+  "story.story_3_p4": "and cities were being created.",
+
+  "story.story_4_p1": "LAZY REVENGERS is angry.",
+  "story.story_4_p2": "Slow and lazy, but set out",
+  "story.story_4_p3": "to take revenge",
+  "story.story_4_p4": "on the ecological destroying humans.",
+
+  "welcome.title": "Welcome",
+  "welcome.info1": "LAZY REVENGERS is a carbon credit",
+  "welcome.info1_2": "project based on blockchain.",
+  "welcome.info1_3": "Participate in carbon reduction",
+
+  "welcome.info2": "activities and receive voluntary carbon",
+  "welcome.info2_2": "credits as a reward.",
+  
+  
+  "app.heading.h1": "lazyr app",
+  "app.heading.h2": "how it works",
+  
+  "app.activity.title": "activity",
+  
+  "app.activity.info1": "User will be compensated",
+  "app.activity.info2": "through voluntary carbon reduction",
+  "app.activity.info3": "activities anytime, anywhere!",
+  
+  "app.rewards.title": "get more rewards!",
+
+  "app.rewards.info1": "Upgrade your LAZY REVENGERS",
+  "app.rewards.info2": "and get more rewards!",
+  "app.rewards.info3": " ",
+
+  "activity.heading.h1": "Lazy revengers",
+  "activity.heading.h2": "We are",
+
+  "activity.join.title": "join us",
+
+  "activity.join.info1": "Adopt the one and only",
+  "activity.join.info2": "LAZY REVENGERS in the world!",
+
+  "activity.together.title": "Do it together",
+
+  "activity.together.info1": "The LAZY REVENGERS",
+  "activity.together.info2": "sets out",
+  "activity.together.info3": "to take revenge",
+  "activity.together.info4": "on the ecological destroyers!",
+
+  "webthree.heading.h1": "LAZYR Web 3.0",
+  
+  "webthree.heading.h21": "LAZYR User can evaluate",
+  "webthree.heading.h22": "and decide reward",
+
+  "webthree.selection.title": "VALIDATOR Selection",
+
+  "webthree.selection.info1": "Anyone can become a validator as long ",
+  "webthree.selection.info2": "as the number of platform contributions reaches",
+  "webthree.selection.info3": "a certain amount. Conversely, any conduct that violates",
+  "webthree.selection.info4": "the LAZYR WEB3.0 Governance Protocol may result in",
+  "webthree.selection.info5": "disqualification of the validator.",
+  
+  "webthree.rewards.title": "validator rewards",
+
+  "webthree.rewards.info1": "As a validator, if you evaluate the carbon reduction",
+  "webthree.rewards.info2": "activities of general users, you will",
+  "webthree.rewards.info3": "receive a certain amount of compensation. ",
+  
+  
+  "webthree.rewards.info4": "This is a sustainable WEB 3.0 governance protocol,",
+  "webthree.rewards.info5": "in which the system operates",
+  "webthree.rewards.info6": "without the involvement of the platform administrator.",
+
+  "team.heading.h1": "Team",
+  "team.hashtags": ["#Savethesloth", "#CLIMATECHANGE", "#NFTFORGOOD", "#actnow"],
+  
+  "faq.title": "FAQ",
+
+  "faq.question_1_title": "What's your mint information",
+  "faq.question_2_title": "What's your mint information",
+  "faq.question_3_title": "What's your mint information",
+  "faq.question_4_title": "What's your mint information",
+  "faq.question_5_title": "What's your mint information",
+  "faq.question_6_title": "What's your mint information",
+  
+  "faq.question_1_id": 1,
+  "faq.question_2_id": 2,
+  "faq.question_3_id": 3,
+  "faq.question_4_id": 4,
+  "faq.question_5_id": 5,
+  "faq.question_6_id": 6,
+
+  "faq.question_1_answer_1_1": "Date: October 11th",
+  "faq.question_1_answer_1_2": "Supply: 777",
+  "faq.question_1_answer_1_3": "Price: Freemint",
+  
+  "faq.question_1_answer_2_1": "Price: Freemint",
+  "faq.question_1_answer_2_2": "Price: Freemint",
+  "faq.question_1_answer_2_3": "Price: Freemint",
+
+
+  "faq.questions": [
+    {
+      "id": 1,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 11,
+          "answers": ["", "", ""]
+        },
+        {
+          "id": 12,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 13,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 21,
+          "answers": ["Date: October 11th", "Supply: 777", "Price: Freemint"]
+        },
+        {
+          "id": 22,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 23,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 31,
+          "answers": ["Date: October 11th", "Supply: 777", "Price: Freemint"]
+        },
+        {
+          "id": 32,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 33,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 41,
+          "answers": ["Date: October 11th", "Supply: 777", "Price: Freemint"]
+        },
+        {
+          "id": 42,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 43,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 51,
+          "answers": ["Date: October 11th", "Supply: 777", "Price: Freemint"]
+        },
+        {
+          "id": 52,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 53,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 61,
+          "answers": ["Date: October 11th", "Supply: 777", "Price: Freemint"]
+        },
+        {
+          "id": 62,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 63,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    }
+  ],
+
+  "roadmap.title": "Roadmap",
+  "roadmap.circles.one.num": "01.",
+  "roadmap.circles.one.title": "22 Q3",
+
+  "roadmap.circles.one.list1": "Team building",
+  "roadmap.circles.one.list2": "Initiate NFT design",
+  "roadmap.circles.one.list3": "Smart contact development",
+  "roadmap.circles.one.list4": "Tokenomics design",
+
+  "roadmap.circles.two.num": "02.",
+  "roadmap.circles.two.title": "22 Q4",
+
+  "roadmap.circles.two.list1": "Project launch",
+  "roadmap.circles.two.list2": "Whitepaper v1.0 release to the public",
+  "roadmap.circles.two.list3": "Launch community channel",
+  "roadmap.circles.two.list4": "Launch OG & Whitelist recruitment",
+  "roadmap.circles.two.list5": "LAZYR App CBT launch",
+
+  "roadmap.circles.three.num": "03.",
+  "roadmap.circles.three.title": "23 Q1",
+
+  "roadmap.circles.three.list1": "Whitepaper v2.0 release to the public",
+  "roadmap.circles.three.list2": "Launch NFT Mystery Box Minting",
+  "roadmap.circles.three.list3": "Revealing NFT and Token release",
+  "roadmap.circles.three.list4": "LAZYR APP Global OBT",
+
+  "roadmap.circles.four.num": "04.",
+  "roadmap.circles.four.title": "23 Q2",
+
+  "roadmap.circles.four.list1": "Whitepaper v3.0 release to the public",
+  "roadmap.circles.four.list2": "LAZYR APP official service started",
+  "roadmap.circles.four.list3": "DEX listing and liquidity pool supply",
+  "roadmap.circles.four.list4": "Establishment of the Voluntary Carbon Trading Foundation",
+  "roadmap.circles.four.list5": "1st tree planting project in progress",
+
+  "roadmap.circles.five.num": "05.",
+  "roadmap.circles.five.title": "23 Q3",
+
+  "roadmap.circles.five.list1": "List on Korea and Global CEX exchanges",
+  "roadmap.circles.five.list2": "Launch of LAZY RVENGERS' IP store",
+  "roadmap.circles.five.list3": "Expansion of global corporate partnerships",
+  "roadmap.circles.five.list4": "Offline service expansion"
+}

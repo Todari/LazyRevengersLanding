@@ -1,0 +1,39 @@
+.logoWrapper {
+  position: relative;
+  width: 250px;
+  height: 190px;
+  margin-bottom: 6rem;
+
+  @media screen and (max-width: 1680px) {
+    width: 200px;
+    height: 130px;
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: 1280px) {
+    width: 180px;
+    height: 130px;
+  }
+  @media screen and (max-width: 860px) {
+    width: 140px;
+    height: 100px;
+    margin-bottom: 3rem;
+  }
+  @media screen and (max-width: 480px) {
+    width: 120px;
+    height: 70px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  @media screen and (max-width: 391px) {
+    width: 120px;
+    height: 70px;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+  }
+  @media screen and (max-height: 480px) {
+    width: 100px;
+    height: 70px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+}

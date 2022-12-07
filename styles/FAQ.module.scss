@@ -1,0 +1,220 @@
+.decorative {
+  font-size: 90px;
+  font-weight: 900;
+  background: linear-gradient(180deg, #CDF856 0%, #56EEF8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;  
+  text-fill-color: transparent;
+
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  
+  @media screen and (max-width: 1280px) {
+    font-size: 60px;
+  }
+}
+
+.faq_top {
+  height: 30%;
+  display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.faq_bot {
+  height: 70%;
+}
+
+.faq_container {
+  display: flex;
+  min-height: 120vh;
+  background: #354153;
+  position: relative;
+}
+
+.questions_container {
+  display: flex;
+  flex-wrap: wrap;
+  @media screen and (max-width: 1280px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.question_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  flex: 50%;
+  @media screen and (max-width: 860px) {
+    width: 100%;
+    padding: 0;
+  }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.title_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 28px;
+    margin-right: 1rem;
+    @media screen and (max-width: 1200px) {
+      font-size: 22px;
+    }
+    @media screen and (max-width: 480px) {
+      margin: 0.5rem;
+    }
+
+  }
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.text_wrapper {
+  max-width: 450px;
+  
+  p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    line-height: 32px;
+    @media screen and (max-width: 1200px) {
+      font-size: 18px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+}
+
+.c_padding {
+  padding: 2rem 0;
+  @media screen and (max-width: 768px) {
+    padding: 0.5rem 0;
+  }
+}
+
+.faq_button_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 3px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: all linear 0.5s;
+  @media screen and (max-width: 480px) {
+    margin-right: 10px;
+  }
+}
+
+.faq_button_wrapper_active {
+  background-color: #fff!important;
+  transition: all linear 0.5s;
+  z-index: 20;
+}
+
+.faq_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  border: 5px solid #344152;
+  background-image: url('/icons/arrow_right.svg');
+  background-repeat: no-repeat;
+  transition: all linear 0.4s;
+  background-position: center;
+  z-index: 20
+}
+
+.faq_button_active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  border: 5px solid #344152;
+  background-image: url('/icons/arrow_down.svg');
+  background-repeat: no-repeat;
+  transition: all linear 0.2s;
+  background-position: center;
+
+}
+
+.faq_answer {
+  position: relative;
+  opacity: 1;
+  transition: all linear 0.3s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 450px;
+  border-radius: 8px;
+  :nth-child(1) {
+    :nth-child(1) {
+      position: relative;
+      border-top: 1px solid #acaeae4c;
+      padding-top: 10px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    width: 340px;
+    margin-left: 10px;
+  }
+
+}
+.faq_answer_hidden {
+  overflow: hidden;
+  width: 450px;
+  opacity: 0;
+  transition: all linear 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 0px;
+  border-radius: 8px;
+  padding: 0rem;
+  :nth-child(1) {
+    
+    :nth-child(1) {
+      position: relative;
+      
+      border-top: 1px solid transparent;
+      padding-top: 10px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    width: 340px;
+    margin-left: 10px;
+  }
+}
+
+.leftSection {
+}
+
+.rightSection {
+
+}

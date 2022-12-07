@@ -1,0 +1,395 @@
+
+$phoneHeightLg: 718px;
+$phoneWidthLg: 405px;
+
+$phoneHeightMd: 618px;
+$phoneWidthMd: 305px;
+
+$phoneHeightSm: 418px;
+$phoneWidthSm: 205px;
+
+$bg: #354153;
+$imageWidth: calc(100% + 30px);
+.appContainer {
+  background: $bg;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  overflow: hidden;
+  position: relative;
+  @media screen and (max-width: 860px) {
+    padding-bottom: 4rem;
+    // margin-bottom: 4rem;
+  }
+  .gradient {
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.5;
+    background: radial-gradient(34.98% 34.98% at 50% 50%, #FFE57E 0%, rgba(6, 19, 45, 0) 100%);
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) translateY(5%);
+    z-index: 4;
+    @media screen and (max-width: 1680px) {
+      height: 800px!important;
+      width: 800px;
+
+      bottom: 0;
+      top: 0;
+      transform: translateX(-50%) translateY(20%);
+    }
+    @media screen and (max-width: 1440px) {
+      height: 500px!important;
+      width: 500px;
+
+      bottom: 0%;
+      transform: translateX(-50%) translateY(50%);
+    }
+    @media screen and (max-width: 860px) {
+      height: 460px!important;
+      width: 460px;
+      top: 0;
+      bottom: 0;
+      transform: translateX(-50%) translateY(100%);
+    }
+    @media screen and (max-width: 480px) {
+      height: 460px!important;
+      width: 460px;
+      top: 0;
+      bottom: 0;
+      transform: translateX(-50%) translateY(100%);
+    }
+    @media screen and (max-height: 480px) and (orientation: landscape) {
+      height: 460px!important;
+      width: 460px;
+      top: 0;
+      bottom: 0;
+      transform: translateX(-50%) translateY(50%);
+    }
+  }
+  .appWrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .infoWrapper {
+      display: flex;
+      justify-content: space-around;
+      @media screen and (max-width: 860px) {
+        flex-direction: column;
+        width: 100vw;
+      }
+      @media screen and (max-height: 480px) and (max-width: 860px) {
+        flex-direction: row;
+        width: 100vw;
+        justify-content: center;
+      }
+      
+    }
+  }
+}
+.titleWrapper {
+  margin-bottom: 4rem;
+  h2 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+  }
+  h1 {
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    
+  }
+  @media screen and (max-width: 1680px) {
+    h2 {
+
+      font-size: 70px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    h2 {
+
+      font-size: 60px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+
+.activityWrapper, .rewardsWrapper {
+  max-width: 500px;
+  h1, p {
+    color: #fff;
+    white-space: nowrap;
+  }
+  h1 {
+    font-size: 46px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding-top: 4rem;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 28px;
+    margin: 4px;
+  }
+  @media screen and (max-width: 1680px) {
+    max-width: 400px;
+    h1 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 22px;
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    
+    p {
+      padding-top: 0.5rem;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    max-width: 30%;
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  @media screen and (max-width: 860px) {
+    max-width: 100%;
+    width: 100%;
+
+    h1 {
+      font-size: 28px;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+      line-height: 30px;
+      padding-top: 0rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    max-width: 70%;
+
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 30px;
+      padding-top: 0rem;
+    }
+  }
+}
+.activityWrapper {
+  margin-left: 4rem;
+  width: 30%;
+  @media screen and (max-width: 1680px) {
+    margin-left: 1rem;
+  }
+  @media screen and (max-width: 860px) {
+    flex: 1;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 480px) {
+    margin-left: 1rem;
+    h1 {
+      width: 100%;
+      text-align: start;
+    }
+    & div {
+      width: 100%;
+    }
+    p {
+      line-height: 26px;
+    }
+  }
+  @media screen and (max-height: 480px) and (orientation: landscape) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding-left: .5rem;
+    h1 {
+      font-size: 24px;
+      padding: 0;
+    }
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+.rewardsWrapper {
+  margin-right: 4rem;
+  width: 30%;
+  @media screen and (max-width: 1680px) {
+    margin-right:1rem;
+  }
+  @media screen and (max-width: 860px) {
+    width: 100%;
+    
+    flex: 2;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 480px) {
+    margin-left: 1rem;
+    h1 {
+      width: 100%;
+      text-align: start;
+    }
+    & div {
+      width: 100%;
+    }
+    p {
+      line-height: 26px;
+    }
+  }
+  @media screen and (max-height: 480px) and (orientation: landscape) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: .5rem;
+    margin: 0;
+    h1 {
+      font-size: 22px;
+      padding: 0;
+    }
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+.carousel {
+  z-index: 500;
+  padding: 0 3rem;
+  @media screen and (max-width: 1680px) {
+    padding: 0 2rem;
+  }
+  @media screen and (max-width: 860px) {
+    padding: 0 1rem;
+  }
+  @media screen and (max-height: 480px) and (orientation: landscape) {
+    scale: 0.8;
+    padding-right: 0;
+  }
+}
+.phoneWrapper {
+  height: $phoneHeightLg;
+  width: $phoneWidthLg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+    margin-right: auto;
+    
+  @media screen and (max-width: 1680px) {
+    height: $phoneHeightMd;
+    width: $phoneWidthMd;
+  }
+  @media screen and (max-width: 1440px) {
+    height: $phoneHeightSm;
+    width: $phoneWidthSm;
+  }
+  .phoneDisplay {
+    z-index: 11;
+    position: absolute;
+    height: calc($phoneHeightLg - 130px);
+    width: calc($phoneWidthLg - 130px);
+    border-radius: 30px;
+    background: $bg;
+    transform: translateY(-2px);
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    @media screen and (max-width: 1680px) {
+      height: calc($phoneHeightMd - 110px);
+      width: calc($phoneWidthMd - 68px);
+      transform: translateX(2px);
+    }
+    @media screen and (max-width: 1440px) {
+      height: calc($phoneHeightSm - 75px);
+      width: calc($phoneWidthSm - 48px);
+      border-radius: 20px;
+    }
+  }
+  .phone {
+    background-image: url('/apppreview/phone.png');
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    max-width: 405px;
+    max-height: 718px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+  } 
+}
+.swiper {
+  height: calc($phoneHeightLg - 130px)!important;
+  width: calc($phoneWidthLg - 130px)!important;
+  @media screen and (max-width: 1680px) {
+    height: calc($phoneHeightMd - 110px)!important;
+    width: calc($phoneWidthMd - 68px)!important;
+    transform: translateX(2px);
+  }
+  @media screen and (max-width: 1440px) {
+    height: calc($phoneHeightSm - 75px)!important;
+    width: calc($phoneWidthSm - 48px)!important;
+  }
+  @media screen and (max-height: 480px) and (orientation: landscape) {
+    transform: translateX(0px);
+  }
+ .imageWrapper {
+  position: relative;
+  height: calc($phoneHeightLg - 130px)!important;
+  width: calc($phoneWidthLg - 130px)!important;
+  @media screen and (max-width: 1680px) {
+    height: calc($phoneHeightMd - 110px)!important;
+    width: calc($phoneWidthMd - 68px)!important;
+    transform: translateX(2px);
+  }
+  @media screen and (max-width: 1440px) {
+    height: calc($phoneHeightSm - 75px)!important;
+    width: calc($phoneWidthSm - 48px)!important;
+  }
+}
+}

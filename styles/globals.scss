@@ -1,0 +1,83 @@
+:root {
+  --app-height: 100%;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Exo, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  position: relative;
+  height: 100vh;
+  height: var(--app-height);
+  box-sizing: border-box;
+  // background-color: #354153;
+  background-color: #000;
+}
+
+html {
+  height: -webkit-fill-available;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: -webkit-fill-available;
+}
+
+section {
+  background-color: #354153;
+}
+
+.viewport {
+  margin: 0 0 0 0;
+  width: 100vw;
+  overflow-x: hidden;
+  position: fixed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Exo';
+  
+}
+
+.hidden {
+  display: none;
+}
+
+.dfr {
+  display: flex;
+  flex-direction: row;
+}
+.dfc {
+  display: flex;
+  flex-direction: column;
+}
+
+.full {
+  height: 100vh;
+  // width: 100vw;
+}
+
+.w-half {
+  width: 50%;
+}
+.h-half {
+  height: 50%;
+}
+
+.jcc {
+  justify-content: center;
+}
+.aic {
+  align-items: center;
+}
+.green {
+  background-color: #00FB1D!important;
+}

@@ -1,0 +1,37 @@
+$animationSpeed: 20s;
+
+$slides__count: 7;
+$slides__width: 250px;
+$slides__width__negative: -250px;
+$slider__height: 300px;
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc($slides__width__negative * $slides__count))}
+}
+
+.slider {
+	background: transparent;
+	height: $slider__height;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 100vw;
+}
+
+.slide__track {
+  animation: scroll $animationSpeed linear infinite;
+  display: flex;
+  width: calc($slides__width * calc($slides__count * 2));
+}
+
+.slide {
+  height: $slider__height;
+  width: $slides__width;
+
+  .slide__wrapper {
+    position: relative;
+    height: $slider__height;
+    width: $slides__width;
+  }
+}

@@ -1,0 +1,495 @@
+ .sectionTwo {
+  min-height: 100vh;
+}
+
+.sectionOne {
+  background-color: transparent;
+  min-height: 7300px;
+  background-color: #000;
+  @media screen and (min-width: 1440px){
+    min-height: 8300px;
+  }
+  @media screen and (max-width: 860px){
+    min-height: 8000px;
+  }
+  @media screen and (max-width: 480px){
+    min-height: 7300px;
+  }
+  @media screen and (max-height: 480px){
+    min-height: 6900px;
+  }
+}
+.sectionTwo {
+  background-color: #fff;
+  img {
+    max-width: 100%;
+  }
+}
+
+.eventTimerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 184px;
+  width: 100%;
+  @media screen and (max-width: 860px) {
+   margin-top: 4rem;
+  }
+  @media screen and (max-width: 480px) {
+    margin-top: 0;
+    height: 140px;
+  }
+  @media screen and (max-height: 480px) {
+    scale: 0.7;
+    margin-top: -9rem;
+    height: 140px;
+  }
+}
+.mainInfoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  @media screen and (max-width: 860px) {
+    height: auto;
+   }
+   @media screen and (max-height: 480px) {
+    height: auto;
+  }
+}
+
+.pseudoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  @media screen and (max-width: 1440px) {
+    padding-top: 0rem;
+  }
+  @media screen and (max-width: 860px) {
+    padding-top: 2rem;
+  }
+  @media screen and (max-width: 480px) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  @media screen and (max-height: 480px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.introWrapper {
+  background: #354153;
+  z-index: 300;
+  width: 100%;
+  min-height: 200vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+  .intro {
+    background: #354153;
+    max-height: 100vh;
+    width: 100%;
+    display: flex;
+    @media screen and (max-width: 860px){
+      flex-direction: column;
+    }
+    @media screen and (max-height: 480px){
+      flex-direction: row;
+    }
+    .introText {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      @media screen and (max-width: 1680px) {
+        padding-top: 4rem;
+      }
+      @media screen and (max-width: 860px) {
+        width: 100%;
+        height: 100%;
+        justify-content: flex-end;
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      @media screen and (max-width: 768px) {
+        padding-top: 0rem;
+      }
+      @media screen and (max-width: 480px) {
+        display: flex;
+        align-items: center;
+      }
+      @media screen and (max-height: 480px) and (max-width: 860px) {
+       justify-content: center;
+       max-width: 50%;
+       padding-top: 0;
+      }
+      .textWrapper {
+        max-width: 731px;
+        position: relative;
+        .welcomeContainer {
+          position: relative;
+          display: flex;
+          @media screen and (max-width: 860) {
+            max-width: 450px;
+          }
+          @media screen and (max-width: 480px) {
+            max-width: 250px;
+          }
+        }
+        @media screen and (max-width: 860px) {
+          padding-bottom: 2rem;
+        }
+        @media screen and (max-height: 480px) {
+          padding-bottom: 0rem;
+        }
+        h1 {
+          margin: 0;
+          padding: 0;
+          color: #fff;
+          font-size: 120px;
+          font-weight: 900;
+        }
+        p {
+          margin: 0;
+          padding: 0;
+          color: #fff;
+          font-size: 30px;
+          line-height: 38px;
+          max-width: 540px;
+          white-space: nowrap;
+          
+        }
+        .textWriter {
+          position: absolute;
+          height: 100%;
+          background: #fff;
+          right:0;
+          width: 100%;
+          top: 0;
+        }
+        @media screen and (max-width: 1680px) {
+          h1 {
+            font-size: 100px;
+          }
+          p {
+            font-size: 26px;
+            line-height: 36px;
+          }
+        }
+        @media screen and (max-width: 1200px) {
+          h1 {
+            font-size: 60px;
+          }
+          p {
+            font-size: 22px;
+            line-height: 32px;
+          }
+        }
+        @media screen and (max-width: 860px) {
+          h1 {
+            font-size: 60px;
+          }
+          p {
+            font-size: 20px;
+            line-height: 32px;
+          }
+        }
+        @media screen and (max-width: 480px) {
+          h1 {
+            font-size: 40px;
+            
+          }
+          p {
+            font-size: 16px;
+            line-height: 26px;
+          }
+        }
+        @media screen and (max-height: 480px) and (max-width: 860px) {
+          h1 {
+            font-size: 50px;
+            
+          }
+          p {
+            font-size: 16px;
+            line-height: 26px;
+          }
+         }
+      }
+
+    }
+    .lazyrWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      position: relative;
+      height: 100%;
+      @media screen and (max-width: 1680px) {
+        align-items: center;
+        padding-bottom: 0rem;
+        padding-top: 6rem;
+      }
+
+      @media screen and (max-width: 860px) {
+        width: 100%;
+        padding: 0 2rem;
+        justify-content: center;
+        align-items: flex-start;
+      }
+
+      @media screen and (max-height: 480px) and (orientation: landscape){
+        padding: 0;
+        align-items: flex-end;
+        padding-bottom: 1rem;
+        scale: 0.7;
+      }
+
+      .circle_gradient {
+        background: linear-gradient(180deg, #00FB1D 0%, #6DE5FF 100%);
+          height: 420px;
+          width: 420px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          overflow: hidden;
+          
+          @media screen and (max-width: 1680px) {
+            height: 300px;
+            width: 300px;
+          }
+          @media screen and (max-width: 1024px) {
+            height: 250px;
+            width: 250px;
+          }
+          @media screen and (max-width: 391px) {
+            width: 180px;
+            height: 180px;
+          }
+          .lazyr {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            @media screen and (max-width: 1680px) {
+              height: 300px;
+              width: 300px;
+            }
+            @media screen and (max-width: 1024px) {
+              height: 250px;
+              width: 250px;
+            }
+            @media screen and (max-width: 391px) {
+              width: 180px;
+              height: 180px;
+            }
+          }
+      }
+      .cloudsWrapper {
+        position: absolute;
+        height: 600px;
+        // width: 100%;
+        width: 420px;
+        pointer-events: none;
+
+        @media screen and (max-width: 1680px) {
+          width: 300;
+        }
+        @media screen and (max-width: 1680px) {
+          width: 300;
+        }
+        @media screen and (max-width: 1024px) {
+          width: 250;
+        }
+        @media screen and (max-width: 860px) {
+          height: 250px;
+        }
+
+        @media screen and (max-width: 480px) {
+          width: 100%;
+        }
+        @media screen and (max-height: 480px) {
+          width: 250px;
+        }
+        .cloud_lg {
+          position: absolute;
+          z-index: 5;
+          animation: 3s cloudAnim1 infinite;
+          height: 160px;
+          width: 160px;
+          left: -100px;
+          bottom: 200px;
+          @media screen and (max-width: 1680px) {
+            width: 90px;
+            height: 90px;
+            left: 0;
+            bottom: 200px;
+          }
+          @media screen and (max-width: 1024px) {
+            width: 90px;
+            height: 90px;
+            left: 25px;
+            bottom: 240px;
+          }
+          @media screen and (max-width: 860px) {
+            width: 90px;
+            height: 90px;
+            left: 25px;
+            bottom: 40px;
+          }
+          @media screen and (max-width: 391px) {
+            width: 60px;
+            height: 60px;
+            bottom: 120px;
+            left: 70px;
+          }
+          @media screen and (max-height: 480px){
+            width: 90px;
+            height: 90px;
+            left: -35px;
+            bottom: 115px;
+          }
+        }
+        .cloud_md {
+          position: absolute;
+          z-index: 5;
+          bottom: 340px;
+          height: 120px;
+          width: 120px;
+          left: 380px;
+          animation: 3s cloudAnim2 infinite;
+          @media screen and (max-width: 1680px) {
+            width: 80px;
+            height: 80px;
+            bottom: 340px;
+            left: 320px;
+          }
+          @media screen and (max-width: 1024px) {
+            width: 80px;
+            height: 80px;
+            bottom: 340px;
+            left: 290px;
+          }
+          @media screen and (max-width: 860px) {
+            width: 80px;
+            height: 80px;
+            bottom: 150px;
+            left: 290px;
+          }
+          @media screen and (max-width: 391px) {
+            width: 50px;
+            height: 50px;
+            bottom: 160px;
+            left: 260px;
+          }
+          @media screen and (max-height: 480px){
+            width: 80px;
+            height: 80px;
+            bottom: 175px;
+            left: 180px;
+          }
+        }
+        .cloud_sm {
+          position: absolute;
+          z-index: 5;
+          width: 80px;
+          height: 80px;
+          left: 250px;
+          bottom: 500px;
+          animation: 3s cloudAnim1 infinite;
+          @media screen and (max-width: 1680px) {
+            width: 50px;
+            height: 50px;
+            left: 250px;
+            bottom: 450px;
+          }
+          @media screen and (max-width: 1024px) {
+            width: 50px;
+            height: 50px;
+            left: 230px;
+            bottom: 430px;
+          }
+          @media screen and (max-width: 860px) {
+            width: 50px;
+            height: 50px;
+            left: 220px;
+            bottom: 240px;
+          }
+          @media screen and (max-width: 391px) {
+            width: 40px;
+            height: 40px;
+            left: 220px;
+            bottom: 220px;
+          }
+          @media screen and (max-height: 480px){
+            width: 50px;
+            height: 50px;
+            left: 120px;
+            bottom: 240px;
+          }
+        }
+      }
+      
+    }
+  }
+}
+
+@keyframes cloudAnim1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+@keyframes cloudAnim2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.logoWrapper {
+  top: 10px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @media screen and (max-width:860px) {
+   top: 10px;
+   width: 100px;
+   height: 100px;
+  }
+  @media screen and (max-width:480px) {
+   top: 10px;
+   width: 80px;
+   height: 80px;
+  }
+  img {
+    @media screen and (max-width:480px) {
+      width: 80px;
+      height: auto;
+      
+    }
+  }
+}

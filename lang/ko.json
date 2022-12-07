@@ -1,0 +1,257 @@
+{
+  "page.home.head.title": "Next.js i18n example",
+  "page.home.head.meta.description": "Next.js i18n example - English",
+  "page.home.title": "Welcome to <b>Next.js i18n tutorial</b>",
+  "page.home.description": "You are currently viewing the homepage in English 🚀",
+  
+  "landing.title1.h2": "WE ARE",
+  "landing.title2.h1": "LAZY REVENGERS",
+  "landing.info.p": "저흰 아무것도 안합니다.",
+
+  "story.story_1_p1": "LAZY REVENGERS는 아마존 숲속에",
+  "story.story_1_p2": "서 잠을 자고 있었습니다.",
+  
+  
+  "story.story_2_p1": "어느날 벌목꾼들에 의해 숲이 파괴되어",
+  "story.story_2_p2": "LAZY REVENGERS가 살 곳이 없",
+  "story.story_2_p3": "어졌습니다.",
+
+
+  "story.story_3_p1": "LAZY REVENGERS는",
+  "story.story_3_p2": "너무 느려서 숲이 파괴되고",
+  "story.story_3_p3": "도시가 생기는 동안 피신을",
+  "story.story_3_p4": "할 수 없었습니다.",
+  
+
+  "story.story_4_p1": "LAZY REVENGERS는 화가",
+  "story.story_4_p2": "났습니다. 느리고 게으르지만 환",
+  "story.story_4_p3": "경을 파괴하는 인간을 향한 복수",
+  "story.story_4_p4": "를 시작합니다.",
+
+  "welcome.title": "Welcome",
+  "welcome.info1": "LAZY REVENGERS는 블록체인에",
+  "welcome.info1_2": "기반을 둔 탄소배출권 프로젝트",
+  "welcome.info1_3": "입니다.",
+
+  "welcome.info2": "탄소저감 활동에 참여하여 자발적 탄",
+  "welcome.info2_2": "소배출권을 보상으로 받습니다.",
+  
+  
+  "app.heading.h1": "lazyr app",
+  "app.heading.h2": "how it works",
+
+  "app.activity.title": "activity",
+
+  "app.activity.info1": "언제든, 어디서든, 무엇이든!",
+  "app.activity.info2": "자발적 탄소저감활동을 통해",
+  "app.activity.info3": "보상받을 수 있습니다.",
+  
+  "app.rewards.title": "get more rewards!",
+
+  "app.rewards.info1": "LAZY REVENGERS에게 더",
+  "app.rewards.info2": "많은 애정을 주세요.",
+  "app.rewards.info3": "그러면 더 많은 보상을 가져다 줄 것입니다.",
+
+  "activity.heading.h1": "Lazy revengers",
+  "activity.heading.h2": "We are",
+
+  "activity.join.title": "join us",
+
+  "activity.join.info1": "전 세계에서 단 하나뿐인",
+  "activity.join.info2": "LAZY REVENGERS를 입양하세요!",
+
+  "activity.together.title": "Do it together",
+  
+  "activity.together.info1": "LAZY REVENGERS는",
+  "activity.together.info2": "지구를 파괴하는",
+  "activity.together.info3": "환경 파괴범들에 대한",
+  "activity.together.info4": "복수를 시작합니다!",
+
+  "webthree.heading.h1": "LAZYR Web 3.0",
+  "webthree.heading.h21": "탄소저감활동의 평가와 보상은",
+  "webthree.heading.h22": "LAZYR 유저가 결정합니다.",
+  
+  "webthree.selection.title": "VALIDATOR 선정",
+
+  "webthree.selection.info1": "플랫폼 기여한 수치가 일정량에 도달한다면",
+  "webthree.selection.info2": "누구나 validator가 될 수 있습니다.",
+  "webthree.selection.info3": "반대로 LAZYR WEB3.0 거버넌스 프로토콜에.",
+  "webthree.selection.info4": "저해되는 행위를 하는 경우 validator 자격을",
+  "webthree.selection.info5": "박탈할 수 있습니다.",
+  
+  "webthree.rewards.title": "validator 보상",
+
+  "webthree.rewards.info1": "Validator로서 일반유저의 탄소저감활동에",
+  "webthree.rewards.info2": "대한 평가를 수행하면 일정량의 보상을 받게",
+  "webthree.rewards.info3": "됩니다.",
+
+
+  "webthree.rewards.info4": "이는 지속가능한 WEB 3.0 거버넌스 프로토",
+  "webthree.rewards.info5": "콜로서 플랫폼 관리자의 관여 없이",
+  "webthree.rewards.info6": "시스템이 운영됩니다.",
+
+  "roadmap.title.h1": "ROADMAP",
+  "roadmap.box1.h2":"23 Q2",
+  "roadmap.box1.p1":"· LAZYR APP 글로벌 OBT 시작",
+  "roadmap.box1.p2":"· DEX상장 및 유동성 풀 공급",
+  "roadmap.box1.p3":"· 친환경 자발적 탄소거래 재단 설립",
+  "roadmap.box1.p4":"· 1차 나무심기 프로젝트 진행",
+
+  "team.heading.h1": "Team",
+  "team.hashtags": ["#Savethesloth", "#CLIMATECHANGE", "#NFTFORGOOD", "#actnow"],
+  
+  "faq.title": "FAQ",
+  "faq.questions": [
+    {
+      "id": 1,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 11,
+          "answers": ["Date: October 11th", "Supply: 777", "Price: Freemint"]
+        },
+        {
+          "id": 12,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 13,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 21,
+          "answers": ["Date: October 11th", "Supply: 777", "Price: Freemint"]
+        },
+        {
+          "id": 22,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 23,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 31,
+          "answers": ["Date: October 11th", "Supply: 777", "Price: Freemint"]
+        },
+        {
+          "id": 32,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 33,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 41,
+          "answers": ["Date: October 11th", "Supply: 777", "Price: Freemint"]
+        },
+        {
+          "id": 42,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 43,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 51,
+          "answers": ["Date: October 11th", "Supply: 777", "Price: Freemint"]
+        },
+        {
+          "id": 52,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 53,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "What's your mint information",
+      "answer": [
+        {
+          "id": 61,
+          "answers": ["Date: October 11th", "Supply: 777", "Price: Freemint"]
+        },
+        {
+          "id": 62,
+          "answers": ["Roles: Anyone with WL, OG, Freemint, and Airdrop roles will keep the same roles for both collections"]
+        },
+        {
+          "id": 63,
+          "answers": ["Key points: Holder from The Original Collection will be Freemint for The Lucky Bones Collection and could have access to Lucky Cockpit (our next web3 tool)."]
+        }
+      ]
+    }
+  ],
+
+  "roadmap.title": "Roadmap",
+  "roadmap.circles.one.num": "01.",
+  "roadmap.circles.one.title": "22 Q3",
+
+  "roadmap.circles.one.list1": "팀 빌딩",
+  "roadmap.circles.one.list2": "NFT 디자인 시작",
+  "roadmap.circles.one.list3": "스마트컨트랙트 개발",
+  "roadmap.circles.one.list4":  "토크노믹스 설계",
+
+  "roadmap.circles.two.num": "02.",
+  "roadmap.circles.two.title": "22 Q4",
+
+  "roadmap.circles.two.list1": "프로젝트 오픈",
+  "roadmap.circles.two.list2": "백서 v1.0 공개",
+  "roadmap.circles.two.list3": "커뮤니티 채널 오픈",
+  "roadmap.circles.two.list4": "OG & WL 모집 시작",
+  "roadmap.circles.two.list5": "LAZYR APP CBT 시작",
+
+  "roadmap.circles.three.num": "03.",
+  "roadmap.circles.three.title": "23 Q1",
+
+  "roadmap.circles.three.list1": "백서 v2.0 공개",
+  "roadmap.circles.three.list2": "NFT 미스터리 박스 민팅",
+  "roadmap.circles.three.list3": "리빌 및 토큰 출시",
+  "roadmap.circles.three.list4": "LAZYR APP 글로벌 OBT",
+
+  "roadmap.circles.four.num": "04.",
+  "roadmap.circles.four.title": "23 Q2",
+
+  "roadmap.circles.four.list1":  "백서 v3.0 공개",
+  "roadmap.circles.four.list2": "LAZYR APP 정식 서비스 시작",
+  "roadmap.circles.four.list3": "DEX상장 및 유동성 풀 공급",
+  "roadmap.circles.four.list4": "친환경 자발적 탄소거래 재단 설립",
+  "roadmap.circles.four.list5": "1차 나무심기 프로젝트 진행",
+
+  "roadmap.circles.five.num": "05.",
+  "roadmap.circles.five.title": "23 Q3",
+
+  "roadmap.circles.five.list1": "국내 및 해외 CEX 거래소 상장",
+  "roadmap.circles.five.list2": "LAZYR IP 스토어 오픈",
+  "roadmap.circles.five.list3":  "글로벌 기업 파트너십 확장",
+  "roadmap.circles.five.list4": "오프라인 서비스 확장"
+}

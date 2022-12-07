@@ -1,0 +1,206 @@
+.container {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: transparent;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 21;
+  pointer-events: none; 
+  .timeline {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 25;
+    pointer-events: auto;
+  }
+
+  .fadeShow, .fadeHidden {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: all 0.2s ease-in;
+    z-index: 22;
+  }
+
+  .fadeShow {
+    opacity: 1;
+    display: flex;
+    z-index: 26;
+    pointer-events: auto;
+  }
+  .fadeHidden {
+    opacity: 0;
+    display: none;
+  }
+
+  .headContainerShow, .headContainerHidden {
+    height: 870px;
+    width: 1000px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    transition: all 0.4s cubic-bezier(.86,.31,.45,.89);
+    z-index: 26;
+
+    @media screen and (max-width: 1460px) {
+      height: 780px;
+
+      width: 900px;
+    }
+    @media screen and (max-width: 1280px) {
+      width: 800px;
+      height: 694px;
+    }
+    @media screen and (max-width: 860px) {
+      height: 460px;
+      width: 480px;
+    }
+    @media screen and (max-width: 480px) {
+      height: 320px;
+      width: 350px;
+    }
+  }
+  .headContainerShow {
+    transform: translateY(18%);
+    @media screen and (max-width: 860px) {
+      transform: translateY(-40%);
+    }
+    @media screen and (max-width: 480px) {
+      transform: translateY(-50%);
+    }
+  }
+  .headContainerHidden {
+    transform: translateY(100%);
+  }
+  .head {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 880px;
+
+    @media screen and (max-width: 1460px) {
+      height: 770px;
+    }
+    @media screen and (max-width: 1280px) {
+      height: 690px;
+    }
+    @media screen and (max-width: 860px) {
+      height: 460px;
+      width: 480px;
+    }
+    @media screen and (max-width: 480px) {
+      height: 270px;
+      width: 300px;
+      transform: translateY(40px);
+    }
+    @media screen and (max-height: 480px) {
+      height: 240px;
+      width: 270px;
+      transform: translateY(110%);
+    }
+  }
+}
+
+.gradient {
+  height: 0;
+  width: 100vw;
+  position: absolute;
+  display: none;
+  
+  @media screen and (max-width: 860px) {
+    display: flex;
+    height: 300px;
+    bottom: -45%;
+    background: linear-gradient(0.16deg, #02FA23 0.18%, #43DFB2 42.7%, #9E73F9 64.55%);
+  }
+  @media screen and (max-width: 480px) {
+    display: flex;
+    height: 300px;
+    bottom: -75%;
+  }
+  @media screen and (max-height: 480px) {
+    display: flex;
+    height: 300px;
+    bottom: -65%;
+  }
+}
+
+.links {
+  position: absolute;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  @media screen and (max-width: 1280px) {
+    top: 20%;
+  }
+  @media screen and (max-width: 860px) {
+    bottom: -100%;
+  }
+  @media screen and (max-height: 480px) {
+    bottom: -120%;
+  }
+
+  .languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+
+    .col_green, .col_black {
+      font-size: 20px;
+      margin: 0 6px;
+    }
+    .col_green {
+      color: #02FA23;
+    }
+    .col_black {
+      color: #000;
+    }
+  }
+
+  .icons {
+    display: flex;
+    margin: 1rem 0;
+    pointer-events: auto;
+    .iconWrapper {
+      margin: 0 6px;
+      cursor: pointer;
+    }
+  }
+  .policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    pointer-events: auto;
+    @media screen and (max-width: 1280px) {
+      flex-direction: row;
+    }
+    a {
+      margin: 4px 0;
+      @media screen and (max-width: 1440px) {
+        margin: 2px 0;
+      }
+      @media screen and (max-width: 1280px) {
+        margin: 2px 6px;
+      }
+    }
+  }
+}

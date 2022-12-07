@@ -1,0 +1,38 @@
+{
+  "name": "lazyrevengers",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazyrev/LazyRevengers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazyrev/LazyRevengers/issues"
+  },
+  "homepage": "https://github.com/lazyrev/LazyRevengers",
+  "dependencies": {
+    "canvas-scroll-clip": "^1.3.1",
+    "gsap": "^3.11.3",
+    "i18next": "^22.0.4",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.0.0",
+    "react-intl": "^6.2.1",
+    "react-responsive-carousel": "^3.2.23",
+    "sass": "^1.55.0",
+    "swiper": "^8.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-next": "^12.3.1"
+  }
+}

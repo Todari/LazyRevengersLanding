@@ -1,0 +1,89 @@
+.language_btn {
+  margin-left: auto;
+  display: flex;
+  position: relative;
+  button {
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+  .wrapper {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    @media screen and (max-width: 480px) {
+      height: 40px;
+      width: 40px;
+    }
+  }
+  .langBtn, .langBtnActive {
+      width: 54px;
+      height: 54px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media screen and (max-width: 480px) {
+        height: 40px;
+        width: 40px;
+      }
+      @media screen and (max-height: 480px) and (orientation: landscape) {
+        width: 40px;
+        height: 40px;
+      }
+      span {
+        width: 55%!important;
+        height: 55%!important;
+        left: 50%!important;
+        top: 50%!important;
+        transform: translate(-50%, -50%);
+        @media screen and (max-height: 480px) and (orientation: landscape) {
+          width: 40px;
+          height: 40px;
+        }
+      }
+  }
+  .langBtnActive {
+    background-color: #00FB1D!important;
+  }
+  .language_selector_wrapper {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 0;
+    padding-left: 2rem;
+    padding-right: 5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: calc(100% + 10px);
+    right: 36%;
+    border-radius: 12px;
+    transition: all linear 0.3s;
+    
+    a {
+      width: auto;
+      height: auto;
+      margin: 10px 0px;
+      border-radius: 0;
+      font-size: 22px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}
+
+.l_active {
+  opacity: 1;
+  visibility: visible;
+}
+.l_hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.col_purple {
+  color: #867BFF!important;
+}
+.col_black {
+  color: #000!important;
+}

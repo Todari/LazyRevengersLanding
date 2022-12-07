@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  margin-top: 0;
+  // min-width: 100vw;
+  min-height: 100vh;
+  background-position: center;
+  background-position-y: 85%;
+  background-image: url("../public/new-landing-splash2.png");
+  background-size: 170%;
+  justify-content: center;
+  background-repeat: no-repeat;
+
+  padding-top: 32%;
+  // min-height: 100vh;
+  // top: 300px;
+
+  .subTitle {
+    h2 {
+      margin: 0;
+      // margin-bottom: -2rem;
+      padding: 0;
+      font-size: 80px;
+      font-weight: 700;
+      color: rgba(#fff, $alpha: 1.0);
+      text-align: center;
+      letter-spacing: 0.4rem;
+    }
+  }
+
+  .mainTitle {
+    h1 {
+      margin: -10px 0;
+      font-size: 180px;
+      font-weight: 700;
+      color: rgba(#fff, $alpha: 1.0);
+      text-align: center;
+    }
+  }
+
+  .shacoBox {
+    display: flex;
+    justify-content: center;
+  }
+
+  .shacoBoxBox {
+    padding: 0 2rem;
+    display: inline-block;
+    border-radius: 20px;
+    border: solid 4px white;
+    box-shadow: inset 0 0 80px rgba(251, 49, 255, 0.3), inset 0 0 32px rgba(251, 49, 255, 1),
+      0 0 80px rgba(251, 49, 255, 0.3), 0 0 32px rgba(251, 49, 255, 1);
+  }
+}

@@ -1,0 +1,79 @@
+.timelineContainer {
+  height: 100vh;
+  position: fixed;
+  z-index: 990;
+  .timelineWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    right: 30px;
+    width: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 890;
+    border-radius: 8px;
+    .tlCircleWrapper {
+      position: relative;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+
+      @media screen and (max-height: 480px) {
+        height: 60px;
+        margin-bottom: 5px;
+      }
+
+      .circle {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: rgba(255,255,255,0.5);
+        transition: all 0.4s linear;
+        @media screen and (max-height: 480px) {
+          width: 4px;
+          height: 4px;
+        }
+      }
+      .progress {
+        height: 100px;
+        margin-top: 20px;
+        width: 1px;
+        background-color: rgba(255,255,255,0.5);
+        position: relative;
+        @media screen and (max-height: 480px) {
+          height: 40px;
+          margin-top: 5px;
+        }
+        .filler {
+          height: 0%;
+          width: 100%;
+          background-color: #fff;
+          position: absolute;
+          max-height: 100%;
+        }
+      }
+
+      &:nth-last-child(1)  {
+        margin-bottom: 0;
+        height: 12px;
+        .progress {
+          display: none;
+        }
+      }
+      .tlCircle {
+        height: 6px;
+        width: 6px;
+        padding: 0;
+        margin: 0;
+        border-radius: 50%;
+        border: none;
+
+        position: absolute;
+      }
+    }
+  }
+}
