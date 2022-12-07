@@ -1,5 +1,5 @@
 .container {
-  min-height: 100vh;
+  min-height: 70vh;
   background: #354153;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@
   padding-bottom: 4rem;
 
   position: relative;
-  @media screen and (max-height: 480px) and (orientation: landscape){
+  @media screen and (max-height: 480px) and (orientation: landscape) {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
@@ -17,10 +17,12 @@
   .logo {
     position: absolute;
     top: 10px;
-    
-    @media screen and (max-width: 480px){
+
+    @media screen and (max-width: 480px) {
       top: 70px;
-      img {width: 90px;}
+      img {
+        width: 90px;
+      }
     }
   }
 
@@ -34,19 +36,19 @@
       padding: 0;
       margin: 0;
       text-transform: uppercase;
-      @media screen and (max-width: 1280px){
+      @media screen and (max-width: 1280px) {
         font-size: 70px;
       }
-      @media screen and (max-width: 920px){
+      @media screen and (max-width: 920px) {
         font-size: 60px;
       }
-      @media screen and (max-width: 768px){
+      @media screen and (max-width: 768px) {
         font-size: 40px;
       }
-      @media screen and (max-width: 480px){
+      @media screen and (max-width: 480px) {
         font-size: 38px;
       }
-      @media screen and (max-height: 480px) and (orientation: landscape){
+      @media screen and (max-height: 480px) and (orientation: landscape) {
         font-size: 30px;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -54,29 +56,21 @@
     }
   }
 
-
-
   .comingSoon {
     h1 {
       padding-top: 0;
       margin: 0;
-      font-size: 150px;
-      font-weight: 900;
+      font-size: 40px;
       color: #fff;
-      @media screen and (max-width: 1280px){
-        font-size: 120px;
+      @media screen and (max-width: 1280px) {
       }
-      @media screen and (max-width: 920px){
-        font-size: 100px;
+      @media screen and (max-width: 920px) {
       }
-      @media screen and (max-width: 768px){
-        font-size: 70px;
+      @media screen and (max-width: 768px) {
       }
-      @media screen and (max-width: 480px){
-        font-size: 46px;
+      @media screen and (max-width: 480px) {
       }
-      @media screen and (max-height: 480px) and (orientation: landscape){
-        font-size: 50px;
+      @media screen and (max-height: 480px) and (orientation: landscape) {
         margin-top: 3rem;
         margin-bottom: 3rem;
       }

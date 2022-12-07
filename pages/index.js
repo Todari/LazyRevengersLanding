@@ -82,9 +82,9 @@ export default function Home() {
       <section ref={partnersRef}>
         <PartnersBlock />
       </section>
-      <section ref={teamRef}>
+      {/* <section ref={teamRef}>
         <TeamBlock />
-      </section>
+      </section> */}
       <section ref={faqRef}>
         <FAQ />
       </section>

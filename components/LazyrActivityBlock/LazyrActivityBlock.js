@@ -32,6 +32,8 @@ const LazyrActivityBlock = () => {
   const joinTitle = intl.formatMessage({ id: "activity.join.title" });
   const joinInfo1 = intl.formatMessage({ id: "activity.join.info1" });
   const joinInfo2 = intl.formatMessage({ id: "activity.join.info2" });
+  const joinInfo3 = intl.formatMessage({ id: "activity.join.info3" });
+  const joinInfo4 = intl.formatMessage({ id: "activity.join.info4" });
   const togetherTitle = intl.formatMessage({ id: "activity.together.title" });
   const togetherInfo1 = intl.formatMessage({ id: "activity.together.info1" });
   const togetherInfo2 = intl.formatMessage({ id: "activity.together.info2" });
@@ -52,6 +54,8 @@ const LazyrActivityBlock = () => {
           <h2>{joinTitle}</h2>
           <p>{joinInfo1}</p>
           <p>{joinInfo2}</p>
+          <p>{joinInfo3}</p>
+          <p>{joinInfo4}</p>
         </div>
         <div className={styles.wrapper}>
           <div className={styles.gradiend}></div>
