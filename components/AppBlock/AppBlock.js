@@ -38,6 +38,7 @@ const AppBlock = () => {
   const activityInfo1 = intl.formatMessage({ id: "app.activity.info1" });
   const activityInfo2 = intl.formatMessage({ id: "app.activity.info2" });
   const activityInfo3 = intl.formatMessage({ id: "app.activity.info3" });
+  const activityInfo4 = intl.formatMessage({ id: "app.activity.info4" });
 
   const rewardsTitle = intl.formatMessage({ id: "app.rewards.title" });
 
@@ -148,6 +149,7 @@ const AppBlock = () => {
               <p>{activityInfo1}</p>
               <p>{activityInfo2}</p>
               <p>{activityInfo3}</p>
+              <p>{activityInfo4}</p>
             </div>
           </div>
           <div className={styles.carousel}>
