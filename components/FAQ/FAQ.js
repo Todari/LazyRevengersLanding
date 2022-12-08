@@ -236,20 +236,19 @@ const FAQ = () => {
                 }
               >
                 <div className={styles.text_wrapper}>
-                  <p>{q4}</p>
+                  <p>
+                    {a41}</p>
                 </div>
                 <div
                   className={[styles.text_wrapper, styles.c_padding].join(" ")}
                 >
-                  <p>
-                    {a41}
-                  </p>
-                </div>
-                <div className={styles.text_wrapper}>
                   <p>{a42}</p>
                   <p>{a43}</p>
                   <p>{a44}</p>
                   <p>{a45}</p>
+                </div>
+                <div className={styles.text_wrapper}>
+
                 </div>
               </div>
             </div>
