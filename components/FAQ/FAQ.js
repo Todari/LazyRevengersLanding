@@ -1,6 +1,7 @@
 import { text } from "@/consts/text";
 import styles from "@/styles/FAQ.module.scss";
 import { useState } from "react";
+import { useIntl } from "react-intl";
 import LogoWrapper from "../LogoWrapper/LogoWrapper";
 
 const FAQ = () => {
@@ -30,6 +31,37 @@ const FAQ = () => {
       active: false,
     },
   ]);
+
+  const intl = useIntl();
+  const q1 = intl.formatMessage({ id: "faq.q1" })
+  const q2 = intl.formatMessage({ id: "faq.q2" })
+  const q3 = intl.formatMessage({ id: "faq.q3" })
+  const q4 = intl.formatMessage({ id: "faq.q4" })
+  const q5 = intl.formatMessage({ id: "faq.q5" })
+  const q6 = intl.formatMessage({ id: "faq.q6" })
+
+  const a11 = intl.formatMessage({ id: "faq.a11" })
+  const a12 = intl.formatMessage({ id: "faq.a12" })
+  const a13 = intl.formatMessage({ id: "faq.a13" })
+  const a14 = intl.formatMessage({ id: "faq.a14" })
+  const a15 = intl.formatMessage({ id: "faq.a15" })
+  const a21 = intl.formatMessage({ id: "faq.a21" })
+  const a22 = intl.formatMessage({ id: "faq.a22" })
+  const a31 = intl.formatMessage({ id: "faq.a31" })
+  const a32 = intl.formatMessage({ id: "faq.a32" })
+  const a41 = intl.formatMessage({ id: "faq.a41" })
+  const a42 = intl.formatMessage({ id: "faq.a42" })
+  const a43 = intl.formatMessage({ id: "faq.a43" })
+  const a44 = intl.formatMessage({ id: "faq.a44" })
+  const a45 = intl.formatMessage({ id: "faq.a45" })
+
+  const a51 = intl.formatMessage({ id: "faq.a51" })
+  const a52 = intl.formatMessage({ id: "faq.a52" })
+  const a53 = intl.formatMessage({ id: "faq.a53" })
+  const a54 = intl.formatMessage({ id: "faq.a54" })
+  const a61 = intl.formatMessage({ id: "faq.a61" })
+
+
   const toggleQuestion = (id) => {
     const newArr = questions;
     newArr[id - 1].active = !newArr[id - 1].active;
@@ -46,14 +78,14 @@ const FAQ = () => {
           <div className={styles.leftSection}>
             <div className={styles.question_wrapper}>
               <div className={styles.title_wrapper}>
-                <h1>What&apos;s your mint informations?</h1>
+                <h1>{q1}</h1>
                 <div
                   className={
                     questions[0].active
                       ? `${[
-                          styles.faq_button_wrapper,
-                          styles.faq_button_wrapper_active,
-                        ].join(" ")}`
+                        styles.faq_button_wrapper,
+                        styles.faq_button_wrapper_active,
+                      ].join(" ")}`
                       : `${styles.faq_button_wrapper}`
                   }
                 >
@@ -77,37 +109,20 @@ const FAQ = () => {
                 }
               >
                 <div className={styles.text_wrapper}>
-                  <p>Date: October 11th</p>
-                  <p>Supply: 777</p>
-                  <p>Price: Freemint</p>
-                </div>
-                <div
-                  className={[styles.text_wrapper, styles.c_padding].join(" ")}
-                >
-                  <p>
-                    Roles: Anyone with WL, OG, Freemint, and Airdrop roles will
-                    keep the same roles for both collections.
-                  </p>
-                </div>
-                <div className={styles.text_wrapper}>
-                  <p>
-                    Key points: Holder from The Original Collection will be
-                    Freemint for The Lucky Bones Collection and could have
-                    access to Lucky Cockpit (our next web3 tool).
-                  </p>
+                  <p>{a11}</p>
                 </div>
               </div>
             </div>
             <div className={styles.question_wrapper}>
               <div className={styles.title_wrapper}>
-                <h1>What&apos;s your mint informations?</h1>
+                <h1>{q2}</h1>
                 <div
                   className={
                     questions[1].active
                       ? `${[
-                          styles.faq_button_wrapper,
-                          styles.faq_button_wrapper_active,
-                        ].join(" ")}`
+                        styles.faq_button_wrapper,
+                        styles.faq_button_wrapper_active,
+                      ].join(" ")}`
                       : `${styles.faq_button_wrapper}`
                   }
                 >
@@ -131,38 +146,26 @@ const FAQ = () => {
                 }
               >
                 <div className={styles.text_wrapper}>
-                  <p>Date: October 11th</p>
-                  <p>Supply: 777</p>
-                  <p>Price: Freemint</p>
+                  <p>{a21}</p>
                 </div>
                 <div
                   className={[styles.text_wrapper, styles.c_padding].join(" ")}
                 >
-                  <p>
-                    Roles: Anyone with WL, OG, Freemint, and Airdrop roles will
-                    keep the same roles for both collections.
-                  </p>
-                </div>
-                <div className={styles.text_wrapper}>
-                  <p>
-                    Key points: Holder from The Original Collection will be
-                    Freemint for The Lucky Bones Collection and could have
-                    access to Lucky Cockpit (our next web3 tool).
-                  </p>
+                  <p>{a22}</p>
                 </div>
               </div>
             </div>
 
             <div className={styles.question_wrapper}>
               <div className={styles.title_wrapper}>
-                <h1>What&apos;s your mint informations?</h1>
+                <h1>{q3}</h1>
                 <div
                   className={
                     questions[2].active
                       ? `${[
-                          styles.faq_button_wrapper,
-                          styles.faq_button_wrapper_active,
-                        ].join(" ")}`
+                        styles.faq_button_wrapper,
+                        styles.faq_button_wrapper_active,
+                      ].join(" ")}`
                       : `${styles.faq_button_wrapper}`
                   }
                 >
@@ -186,23 +189,13 @@ const FAQ = () => {
                 }
               >
                 <div className={styles.text_wrapper}>
-                  <p>Date: October 11th</p>
-                  <p>Supply: 777</p>
-                  <p>Price: Freemint</p>
+                  <p>{a31}</p>
                 </div>
                 <div
                   className={[styles.text_wrapper, styles.c_padding].join(" ")}
                 >
                   <p>
-                    Roles: Anyone with WL, OG, Freemint, and Airdrop roles will
-                    keep the same roles for both collections.
-                  </p>
-                </div>
-                <div className={styles.text_wrapper}>
-                  <p>
-                    Key points: Holder from The Original Collection will be
-                    Freemint for The Lucky Bones Collection and could have
-                    access to Lucky Cockpit (our next web3 tool).
+                    {a32}
                   </p>
                 </div>
               </div>
@@ -212,14 +205,14 @@ const FAQ = () => {
           <div className={styles.rightSection}>
             <div className={styles.question_wrapper}>
               <div className={styles.title_wrapper}>
-                <h1>What&apos;s your mint informations?</h1>
+                <h1>{q4}</h1>
                 <div
                   className={
                     questions[3].active
                       ? `${[
-                          styles.faq_button_wrapper,
-                          styles.faq_button_wrapper_active,
-                        ].join(" ")}`
+                        styles.faq_button_wrapper,
+                        styles.faq_button_wrapper_active,
+                      ].join(" ")}`
                       : `${styles.faq_button_wrapper}`
                   }
                 >
@@ -243,37 +236,33 @@ const FAQ = () => {
                 }
               >
                 <div className={styles.text_wrapper}>
-                  <p>Date: October 11th</p>
-                  <p>Supply: 777</p>
-                  <p>Price: Freemint</p>
+                  <p>{q4}</p>
                 </div>
                 <div
                   className={[styles.text_wrapper, styles.c_padding].join(" ")}
                 >
                   <p>
-                    Roles: Anyone with WL, OG, Freemint, and Airdrop roles will
-                    keep the same roles for both collections.
+                    {a41}
                   </p>
                 </div>
                 <div className={styles.text_wrapper}>
-                  <p>
-                    Key points: Holder from The Original Collection will be
-                    Freemint for The Lucky Bones Collection and could have
-                    access to Lucky Cockpit (our next web3 tool).
-                  </p>
+                  <p>{a42}</p>
+                  <p>{a43}</p>
+                  <p>{a44}</p>
+                  <p>{a45}</p>
                 </div>
               </div>
             </div>
             <div className={styles.question_wrapper}>
               <div className={styles.title_wrapper}>
-                <h1>What&apos;s your mint informations?</h1>
+                <h1>{q5}</h1>
                 <div
                   className={
                     questions[4].active
                       ? `${[
-                          styles.faq_button_wrapper,
-                          styles.faq_button_wrapper_active,
-                        ].join(" ")}`
+                        styles.faq_button_wrapper,
+                        styles.faq_button_wrapper_active,
+                      ].join(" ")}`
                       : `${styles.faq_button_wrapper}`
                   }
                 >
@@ -297,37 +286,27 @@ const FAQ = () => {
                 }
               >
                 <div className={styles.text_wrapper}>
-                  <p>Date: October 11th</p>
-                  <p>Supply: 777</p>
-                  <p>Price: Freemint</p>
+                  <p>{a51}</p>
                 </div>
                 <div
                   className={[styles.text_wrapper, styles.c_padding].join(" ")}
                 >
-                  <p>
-                    Roles: Anyone with WL, OG, Freemint, and Airdrop roles will
-                    keep the same roles for both collections.
-                  </p>
-                </div>
-                <div className={styles.text_wrapper}>
-                  <p>
-                    Key points: Holder from The Original Collection will be
-                    Freemint for The Lucky Bones Collection and could have
-                    access to Lucky Cockpit (our next web3 tool).
-                  </p>
+                  <p>{a52}</p>
+                  <p>{a53}</p>
+                  <p>{a54}</p>
                 </div>
               </div>
             </div>
             <div className={styles.question_wrapper}>
               <div className={styles.title_wrapper}>
-                <h1>What&apos;s your mint informations?</h1>
+                <h1>{q6}</h1>
                 <div
                   className={
                     questions[5].active
                       ? `${[
-                          styles.faq_button_wrapper,
-                          styles.faq_button_wrapper_active,
-                        ].join(" ")}`
+                        styles.faq_button_wrapper,
+                        styles.faq_button_wrapper_active,
+                      ].join(" ")}`
                       : `${styles.faq_button_wrapper}`
                   }
                 >
@@ -351,24 +330,7 @@ const FAQ = () => {
                 }
               >
                 <div className={styles.text_wrapper}>
-                  <p>Date: October 11th</p>
-                  <p>Supply: 777</p>
-                  <p>Price: Freemint</p>
-                </div>
-                <div
-                  className={[styles.text_wrapper, styles.c_padding].join(" ")}
-                >
-                  <p>
-                    Roles: Anyone with WL, OG, Freemint, and Airdrop roles will
-                    keep the same roles for both collections.
-                  </p>
-                </div>
-                <div className={styles.text_wrapper}>
-                  <p>
-                    Key points: Holder from The Original Collection will be
-                    Freemint for The Lucky Bones Collection and could have
-                    access to Lucky Cockpit (our next web3 tool).
-                  </p>
+                  <p>{a61}</p>
                 </div>
               </div>
             </div>
