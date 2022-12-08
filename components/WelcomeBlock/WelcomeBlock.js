@@ -1,4 +1,5 @@
 import styles from "@/styles/wb.module.scss";
+import Landing2 from "@/components/Landing/Landing2"
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -89,12 +90,12 @@ const WelcomeBlock = () => {
           {/* <div ref={timerRef}>
             <Timer />
           </div> */}
-          <div className={styles.pseudoWrapper}>
-            <LogoWrapper />
+          {/* <div className={styles.pseudoWrapper}> */}
+            {/* <LogoWrapper />
             <div className={styles.mainInfoWrapper}>
-              {/* <div className={styles.logoWrapper}>
+              <div className={styles.logoWrapper}>
                 <Image src="/logo/green.svg" alt="logo" layout="fill" />
-              </div> */}
+              </div>
 
               <div className={styles.intro}>
                 <div className={styles.introText}>
@@ -159,8 +160,10 @@ const WelcomeBlock = () => {
             </div>
             <div className={styles.eventTimerWrapper}>
               <Timer />
-            </div>
-          </div>
+        </div> */}
+            <Landing2 />
+          {/* </div> */}
+
         </div>
       </div>
       <div className={styles.sectionThree}></div>

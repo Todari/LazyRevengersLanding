@@ -55,14 +55,14 @@ export default function Home() {
         />
       </Suspense>
       {/* <section ref={introRef}>
-        <WelcomeBlock />
+        <Landing2 />
       </section> */}
       <section ref={introRef}>
-        <Landing2 />
+        <WelcomeBlock />
       </section>
-      {/* <section ref={nftRef}>
+      <section ref={nftRef}>
         <NFTIntroduction />
-      </section> */}
+      </section>
       <section>
         <LazyrActivityBlock />
       </section>
@@ -82,9 +82,9 @@ export default function Home() {
       <section ref={partnersRef}>
         <PartnersBlock />
       </section>
-      <section ref={teamRef}>
+      {/* <section ref={teamRef}>
         <TeamBlock />
-      </section>
+      </section> */}
       <section ref={faqRef}>
         <FAQ />
       </section>
