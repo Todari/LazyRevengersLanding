@@ -166,7 +166,7 @@ const WelcomeBlock = () => {
 
         </div>
       </div>
-      <div className={styles.sectionThree}></div>
+      {/* <div className={styles.sectionThree}></div> */}
     </>
   );
 };
