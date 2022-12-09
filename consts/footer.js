@@ -18,18 +18,18 @@ export const btns = [
 export const links = [
   {
     title: "twitter",
-    url: "https://twitter.com/",
+    url: "https://twitter.com/LAZY_REVENGERS",
     src: "twitter.svg",
   },
   {
     title: "discord",
-    url: "https://discord.com/",
+    url: "https://discord.gg/kTXFFfrBWS",
     src: "discord.svg",
   },
   {
-    title: "instagram",
-    url: "https://instagram.com/",
-    src: "instagram.svg",
+    title: "gitbook",
+    url: "https://tomas-tomas.gitbook.io/lazyrevengers/",
+    src: "gitbook.svg",
   },
   {
     title: "opensea",
