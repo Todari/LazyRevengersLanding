@@ -33,6 +33,7 @@
     position: absolute;
     height: 400px;
     width: 400px;
+    // background: linear-gradient(180deg, #FFE57E 9.24%, #FF0082 73.65%);
     background: linear-gradient(180deg, #FFE57E 9.24%, #FF0082 73.65%);
     left: -15%;
     bottom: -5%;
@@ -107,7 +108,7 @@
 
   .title {
 
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
 
     h2 {
       font-size: 40px;
@@ -560,7 +561,8 @@
   }
 
   & div:nth-child(3) {
-    background: linear-gradient(180deg, #FFE57E 9.24%, #FF0082 73.65%);
+    // background: linear-gradient(180deg, #FFE57E 9.24%, #FF0082 73.65%);
+    background: linear-gradient(180deg,rgb(0 251 29) 9.24%, rgb(0 1415 255) 73.65%);
     transform: rotateX(180deg) translateZ(74px);
   }
 

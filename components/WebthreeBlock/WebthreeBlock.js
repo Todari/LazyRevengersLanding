@@ -28,6 +28,7 @@ const WebthreeBlock = () => {
   const intl = useIntl();
 
   const title = intl.formatMessage({ id: "webthree.heading.h1" });
+  const title2 = intl.formatMessage({ id: "webthree.heading.h2" });
 
   const subtitle1 = intl.formatMessage({ id: "webthree.heading.h21" });
   const subtitle2 = intl.formatMessage({ id: "webthree.heading.h22" });
@@ -111,15 +112,13 @@ const WebthreeBlock = () => {
     <div className={styles.container} ref={containerRef}>
       <div className={styles.wrapper}>
         <div className={styles.title}>
+          <h2>{title2}</h2>
           <h1 ref={titleH1Ref}>{title}</h1>
-          <div ref={titleH2Ref}>
-            <h2>{subtitle1}</h2>
-            <h2>{subtitle2}</h2>
-          </div>
         </div>
         <div className={styles.content}>
+          <div className={styles.gradient}/>
           <div className={styles.selection}>
-            <h3>{selectionTitle}</h3>
+            <h2>{selectionTitle}</h2>
             <div ref={selectionPRef}>
               <p>{selectionInfo1}</p>
               <p>{selectionInfo2}</p>
@@ -128,8 +127,11 @@ const WebthreeBlock = () => {
               <p>{selectionInfo5}</p>
             </div>
           </div>
+          <div className={styles.photoWraper}>
+            <div className={styles.photo} />
+          </div>
           <div className={styles.rewards}>
-            <h3 ref={rewardsH3Ref}>{rewardsTitle}</h3>
+            <h2 ref={rewardsH3Ref}>{rewardsTitle}</h2>
             <div ref={rewardsPRef}>
               <p>{rewardsInfo1}</p>
               <p>{rewardsInfo2}</p>

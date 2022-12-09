@@ -1,7 +1,7 @@
 .decorative {
   font-size: 90px;
   font-weight: 900;
-  background: linear-gradient(180deg, rgb(0 251 29) 0%, rgb(56 249 215) 100%);
+  background: linear-gradient(180deg, rgb(0 251 29) 15%, rgb(0 145 255) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;  
@@ -136,9 +136,10 @@
   height: 44px;
   border-radius: 50%;
   border: none;
-  background-color: #fff;
-  border: 5px solid rgba(251, 49, 255, 0.5);
-  background-image: url('/icons/arrow_right.svg');
+  background-color:rgba(0, 0, 0, 0);
+  border: 3px solid rgba(255, 255, 255, 1);
+  background-image: url('/icons/arrow_right_white.svg');
+  background-size: 60%;
   background-repeat: no-repeat;
   transition: all linear 0.4s;
   background-position: center;
