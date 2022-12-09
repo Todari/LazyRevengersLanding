@@ -22,6 +22,11 @@ $imageWidth: calc(100% + 30px);
   padding-bottom: 4rem;
   overflow: hidden;
   position: relative;
+  background-color: rgba(0,0,0,0.5);
+  background-image: url("../public/new-landing-splash-50.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   @media screen and (max-width: 860px) {
     padding-bottom: 4rem;
     // margin-bottom: 4rem;
@@ -98,7 +103,7 @@ $imageWidth: calc(100% + 30px);
   }
 }
 .titleWrapper {
-  margin-bottom: 4rem;
+  // margin-bottom: 0rem;
   h2 {
     color: #fff;
     font-size: 80px;
@@ -141,6 +146,7 @@ $imageWidth: calc(100% + 30px);
 }
 
 .activityWrapper, .rewardsWrapper {
+  padding-top: 5rem;
   max-width: 500px;
   h1, p {
     color: #fff;

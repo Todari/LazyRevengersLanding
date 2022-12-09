@@ -14,6 +14,11 @@ body {
   box-sizing: border-box;
   // background-color: #354153;
   // background-color:rgb(33 40 63);
+  // background-image: url("../public/new-landing-splash2.png");
+  // background-color: rgba(0, 0, 0, 0.5);
+  // background-size: 100%;
+  // background-repeat: no-repeat;
+  
 }
 
 html {
@@ -27,6 +32,7 @@ body {
 
 section {
   // background-color:rgb(33 40 63);
+  
 }
 
 .viewport {
@@ -44,7 +50,7 @@ a {
 * {
   box-sizing: border-box;
   font-family: 'Exo';
-  
+
 }
 
 .hidden {
@@ -55,6 +61,7 @@ a {
   display: flex;
   flex-direction: row;
 }
+
 .dfc {
   display: flex;
   flex-direction: column;
@@ -68,6 +75,7 @@ a {
 .w-half {
   width: 50%;
 }
+
 .h-half {
   height: 50%;
 }
@@ -75,9 +83,11 @@ a {
 .jcc {
   justify-content: center;
 }
+
 .aic {
   align-items: center;
 }
+
 .green {
-  background-color: #00FB1D!important;
+  background-color: #00FB1D !important;
 }

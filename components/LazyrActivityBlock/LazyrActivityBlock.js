@@ -42,56 +42,56 @@ const LazyrActivityBlock = () => {
 
   return (
     <div ref={containerRef} className={styles.container}>
-      {/* <LogoWrapper /> */}
-      {/* <div className={styles.gradiend}></div> */}
-      <div className={styles.title}>
-        <h2>{subtitle}</h2>
-        <h1>{title}</h1>
-      </div>
-      <div className={styles.content}>
+        {/* <LogoWrapper /> */}
         {/* <div className={styles.gradiend}></div> */}
-        <div className={styles.join}>
-          <h2>{joinTitle}</h2>
-          <p>{joinInfo1}</p>
-          <p>{joinInfo2}</p>
-          <p>{joinInfo3}</p>
-          <p>{joinInfo4}</p>
+        <div className={styles.title}>
+          <h2>{subtitle}</h2>
+          <h1>{title}</h1>
         </div>
-        <div className={styles.wrapper}>
-          <div className={styles.gradiend}></div>
-          <Swiper
-            spaceBetween={1}
-            centeredSlides={true}
-            autoplay={{
-              delay: 1500,
-              disableOnInteraction: false,
-            }}
-            loop={true}
-            autoHeight={false}
-            modules={[Autoplay, Pagination]}
-            className={styles.swiper}
-          >
-            {activityImages.map(({ id, src }) => (
-              <SwiperSlide key={id}>
-                <Image
-                  src={src}
-                  alt="slide"
-                  layout="fill"
-                  priority={true}
-                  quality={90}
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
+        <div className={styles.content}>
+          {/* <div className={styles.gradiend}></div> */}
+          <div className={styles.join}>
+            <h2>{joinTitle}</h2>
+            <p>{joinInfo1}</p>
+            <p>{joinInfo2}</p>
+            <p>{joinInfo3}</p>
+            <p>{joinInfo4}</p>
+          </div>
+          <div className={styles.wrapper}>
+            <div className={styles.gradiend}></div>
+            <Swiper
+              spaceBetween={1}
+              centeredSlides={true}
+              autoplay={{
+                delay: 1500,
+                disableOnInteraction: false,
+              }}
+              loop={true}
+              autoHeight={false}
+              modules={[Autoplay, Pagination]}
+              className={styles.swiper}
+            >
+              {activityImages.map(({ id, src }) => (
+                <SwiperSlide key={id}>
+                  <Image
+                    src={src}
+                    alt="slide"
+                    layout="fill"
+                    priority={true}
+                    quality={90}
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+          <div className={styles.together}>
+            <h2>{togetherTitle}</h2>
+            <p>{togetherInfo1}</p>
+            <p>{togetherInfo2}</p>
+            <p>{togetherInfo3}</p>
+            <p>{togetherInfo4}</p>
+          </div>
         </div>
-        <div className={styles.together}>
-          <h2>{togetherTitle}</h2>
-          <p>{togetherInfo1}</p>
-          <p>{togetherInfo2}</p>
-          <p>{togetherInfo3}</p>
-          <p>{togetherInfo4}</p>
-        </div>
-      </div>
     </div>
   );
 };
