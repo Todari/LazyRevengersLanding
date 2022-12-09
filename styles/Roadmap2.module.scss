@@ -7,6 +7,7 @@
   padding-top: 7rem;
   padding-bottom: 7rem;
   // display: flex;
+  background-color: rgb(33, 40, 63);
 
 
   .title {
@@ -19,7 +20,8 @@
       padding: 0rem 0rem 5rem 0rem;
 
       text-align: center;
-      text-shadow: 0 0 80px rgba(212, 230, 255, 0.562), 0 0 32px rgba(23, 80, 224, 0.56);
+      // text-shadow: 0 0 40px rgba(56, 249, 215, 0.562), 0 0 16px rgba(0, 251, 29, 0.56);
+      text-shadow: 0 0 10px rgba(251, 49, 55, 0.3), 0 0 26px rgba(251, 49, 255, 1),
     }
   }
 
@@ -72,7 +74,7 @@
     width: 0.3rem;
     height: 90rem;
     background-color: #FFF;
-    box-shadow: 0 0 16px rgba(212, 230, 255, 0.8), 0 0 8px  rgba(24, 230, 255, 0.8);
+    box-shadow: 0 0 16px rgba(56, 249, 215, 0.8), 0 0 8px  rgba(0, 251, 29, 0.9);
   }
 
   .box {
@@ -86,14 +88,16 @@
     border: 2px double transparent;
     border-radius: 20px;
     background-image:
-    linear-gradient(rgb(52, 65, 83), rgb(52, 65, 83)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(24 207 104), );
+    // linear-gradient(rgb(52, 65, 83), rgb(52, 65, 83)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(24 207 104), );
+    linear-gradient(rgb(33, 40, 63), rgb(33, 40, 63)), radial-gradient(circle at left top, rgb(0 251 29), rgb(56 249 215) );
     background-origin: border-box;
     background-clip: padding-box, border-box;
+    
     // box-shadow:  0 0 32px rgba(212, 230, 255, 0.8), 0 0 8px  rgba(24, 230, 255, 0.8);
 
     h2 {
       font-size: 40px;
-      font-weight: 900;
+      font-weight: 700;
       color: #fff;
       text-transform: uppercase;
       margin: 0.5rem 2rem;
@@ -104,7 +108,7 @@
     p {
       font-family: S-CoreDream-5;
       font-size: 20px;
-      font-weight: 900;
+      font-weight: 400;
       color: #fff;
       text-transform: uppercase;
       margin: 0.5rem 2rem;
@@ -118,12 +122,14 @@
     height: 4px;
     width: 5%;
     background-color: #fff;
+    box-shadow: 0 0 16px rgba(56, 249, 215, 0.8), 0 0 8px  rgba(0, 251, 29, 0.9);
   }
 
   .rightToCenter {
     height: 4px;
     width: 5%;
     background-color: #fff;
+    box-shadow: 0 0 16px rgba(56, 249, 215, 0.8), 0 0 8px  rgba(0, 251, 29, 0.9);
     // visibility: hidden;
   }
 

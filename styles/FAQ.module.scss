@@ -1,7 +1,7 @@
 .decorative {
   font-size: 90px;
   font-weight: 900;
-  background: linear-gradient(180deg, #CDF856 0%, #56EEF8 100%);
+  background: linear-gradient(180deg, rgb(0 251 29) 0%, rgb(56 249 215) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;  
@@ -28,7 +28,8 @@
 .faq_container {
   display: flex;
   min-height: 120vh;
-  background: #354153;
+  // background: #354153;
+  background: rgb(33 40 63);
   position: relative;
 }
 
@@ -136,7 +137,7 @@
   border-radius: 50%;
   border: none;
   background-color: #fff;
-  border: 5px solid #344152;
+  border: 5px solid rgba(251, 49, 255, 0.5);
   background-image: url('/icons/arrow_right.svg');
   background-repeat: no-repeat;
   transition: all linear 0.4s;

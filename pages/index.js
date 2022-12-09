@@ -88,7 +88,7 @@ export default function Home() {
       <section ref={faqRef}>
         <FAQ />
       </section>
-      <div style={{ height: 500, width: "100%", background: "#354153" }}></div>
+      <div style={{ height: 500, width: "100%", background: "#21283e" }}></div>
       <Suspense fallback={`Loading...`}>
         <DynamicFooter />
       </Suspense>

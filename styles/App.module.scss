@@ -8,7 +8,8 @@ $phoneWidthMd: 305px;
 $phoneHeightSm: 418px;
 $phoneWidthSm: 205px;
 
-$bg: #354153;
+// $bg: #354153;
+$bg : rgb(33 40 63);
 $imageWidth: calc(100% + 30px);
 .appContainer {
   background: $bg;
@@ -31,7 +32,7 @@ $imageWidth: calc(100% + 30px);
     position: absolute;
     border-radius: 50%;
     opacity: 0.5;
-    background: radial-gradient(34.98% 34.98% at 50% 50%, #FFE57E 0%, rgba(6, 19, 45, 0) 100%);
+    background: radial-gradient(34.98% 34.98% at 50% 50%, rgb(56 249 215) 0%, rgba(6, 19, 45, 0) 100%);
     left: 50%;
     bottom: 0;
     transform: translateX(-50%) translateY(5%);
@@ -106,7 +107,8 @@ $imageWidth: calc(100% + 30px);
     padding: 0;
     margin: 0;
     text-align: center;
-    text-shadow: 0 0 80px rgba(212, 230, 255, 0.562), 0 0 32px rgba(23, 80, 224, 0.56);
+    // text-shadow: 0 0 80px rgba(212, 230, 255, 0.562), 0 0 32px rgba(23, 80, 224, 0.56);
+    text-shadow: 0 0 10px rgba(251, 49, 55, 0.3), 0 0 26px rgba(251, 49, 255, 1),
 
   }
   h1 {

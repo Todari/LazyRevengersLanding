@@ -1,6 +1,7 @@
 .container {
   min-height: 100vh;
-  background: #354153;
+  // background: #354153;
+  background: rgb(33 40 63);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +35,8 @@
       padding: 0;
       margin: 0;
       text-transform: uppercase;
-      text-shadow: 0 0 80px rgba(212, 230, 255, 0.562), 0 0 32px rgba(23, 80, 224, 0.56);
+      // text-shadow: 0 0 80px rgba(212, 230, 255, 0.562), 0 0 32px rgba(23, 80, 224, 0.56);
+      text-shadow: 0 0 10px rgba(251, 49, 55, 0.3), 0 0 26px rgba(251, 49, 255, 1);
       @media screen and (max-width: 1280px){
         font-size: 70px;
       }
