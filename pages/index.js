@@ -60,9 +60,9 @@ export default function Home() {
       <section ref={introRef}>
         <WelcomeBlock />
       </section>
-      <section ref={nftRef}>
+      {/* <section ref={nftRef}>
         <NFTIntroduction />
-      </section>
+      </section> */}
       <section>
         <LazyrActivityBlock />
       </section>

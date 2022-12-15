@@ -10,7 +10,7 @@ import Link from "next/link";
 import LanguageButton from "../LanguageButton/LanguageButton";
 import { useCustomProgress } from "@/hooks/useCustomProgress";
 
-const NavbarNew = ({ intro, nft, app, roadmap, partners, team, faq }) => {
+const NavbarNew = ({ intro, story, nft, app, roadmap, partners, team, faq }) => {
   const { locale } = useRouter();
   const { progress } = useCustomProgress();
   // var prevProgress = 0;
@@ -78,7 +78,13 @@ const NavbarNew = ({ intro, nft, app, roadmap, partners, team, faq }) => {
       <div className={styles.links} ref={linksRef}>
         <div className={styles.nav_bnts_container}>
           <button onClick={() => scrollTo(intro)}>INTRO</button>
-          <button onClick={() => scrollTo(nft)}>NFT</button>
+          <Link href="/story">
+            <a style={styles.button}>STORY</a>
+          </Link>
+          {/* <button onClick={() => scrollTo(nft)}>NFT</button> */}
+          <Link href="/nft">
+            <a style={styles.button}>NFT</a>
+          </Link>
           <button onClick={() => scrollTo(app)}>APP</button>
           <button onClick={() => scrollTo(roadmap)}>ROADMAP</button>
           <button onClick={() => scrollTo(partners)}>PARTNERS</button>
@@ -92,15 +98,15 @@ const NavbarNew = ({ intro, nft, app, roadmap, partners, team, faq }) => {
         < */}
         {languages.map((l, idx) => (
           <Link key={idx} href="/" locale={l.loc}>
-            <a
+            <button
               onClick={() => selectLang(idx)}
-              className={`${l.name === selectedLang.name
-                  ? `${styles.col_purple}`
-                  : `${styles.col_black}`
-                }`}
+            // className={`${l.name === selectedLang.name
+            //     ? `${styles.col_purple}`
+            //     : `${styles.col_black}`
+            //   }`}
             >
               {l.name}
-            </a>
+            </button>
           </Link>
         ))}
       </div>

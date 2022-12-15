@@ -7,6 +7,7 @@
   // background: linear-gradient(90deg, rgba(0, 251, 29, 1), rgba(56, 249, 215, 1), rgba(0, 145, 255), rgba(251, 49, 255));
   background: rgb(33, 40, 63);
   box-shadow: 0 0 16px rgba(251, 49, 255, 1);
+  box-shadow: linear-gradient(90deg, rgba(0, 251, 29, 1), rgba(56, 249, 215, 1), rgba(0, 145, 255), rgba(251, 49, 255));;
   // background: linear-gradient(90deg, rgba(0, 251, 29, 1), rgba(56, 249, 215, 1), rgba(0, 145, 255), rgba(251, 49, 255));
   transition: transform 0.5s;
   z-index: 4567;
@@ -14,48 +15,49 @@
   justify-content: center;
   align-items: center;
 
+  button, a {
+    cursor: pointer;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    border: none;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 90px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    background-color: transparent;
+
+    @media screen and (max-width: 1280px) {
+      font-size: 19px;
+      height: 40px;
+      margin: 3px;
+    }
+
+    @media screen and (max-width: 860px) {
+      margin: 10px 0;
+    }
+
+    @media screen and (max-width: 480px) {
+      font-size: 18px;
+    }
+
+    @media screen and (max-height: 670px) {
+      font-size: 16px;
+      margin: 8px 0;
+    }
+
+    @media screen and (max-height: 480px) and (orientation: landscape) {
+      margin: 0px 4px;
+    }
+  }
+
   .nav_bnts_container {
     display: flex;
 
-    button {
-      cursor: pointer;
-      width: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 48px;
-      border: none;
-      padding: 8px 12px;
-      margin: 0 5px;
-      border-radius: 90px;
-      font-weight: 700;
-      font-size: 28px;
-      color: #fff;
-      background-color: transparent;
-
-      @media screen and (max-width: 1280px) {
-        font-size: 19px;
-        height: 40px;
-        margin: 3px;
-      }
-
-      @media screen and (max-width: 860px) {
-        margin: 10px 0;
-      }
-
-      @media screen and (max-width: 480px) {
-        font-size: 18px;
-      }
-
-      @media screen and (max-height: 670px) {
-        font-size: 16px;
-        margin: 8px 0;
-      }
-
-      @media screen and (max-height: 480px) and (orientation: landscape) {
-        margin: 0px 4px;
-      }
-    }
   }
 
   .langWrapper {
@@ -74,7 +76,7 @@
 
     cursor: pointer;
 
-    button {
+    .selectedLang.name {
       cursor: pointer;
       width: auto;
       display: flex;

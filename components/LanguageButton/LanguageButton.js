@@ -35,12 +35,12 @@ const LanguageButton = () => {
   return (
     <div className={styles.language_btn} ref={ref}>
       <div className={styles.wrapper}>
-        {/* <button
+        <button
           onClick={toggleMenuHandler}
           // className={isOpenMenu ? "green" : null}
           // className={isOpenMenu ? styles.langBtnActive : styles.langBtn}
-          className={styles.langBtn}
-        > */}
+          className={isOpenMenu ? styles.langBtnActive : styles.langBtn}
+        >
           <Image
             src="/icons/language.svg"
             alt="language"
@@ -48,7 +48,7 @@ const LanguageButton = () => {
             priority={true}
             rel="preload"
           />
-        {/* </button> */}
+        </button>
       </div>
       <div
         className={`${styles.language_selector_wrapper} ${

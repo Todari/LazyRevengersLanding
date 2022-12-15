@@ -82,11 +82,11 @@ const WelcomeBlock = () => {
 
   return (
     <>
-      {/* <div className={styles.sectionOne} ref={sectionOneRef}> */}
-        {/* <div style={{ position: "fixed", width: "100%" }}>
+      <div className={styles.sectionOne} ref={sectionOneRef}>
+        <div style={{ position: "fixed", width: "100%" }}>
           <Player holderRef={sectionOneRef} />
-        </div> */}
-        {/* <div className={styles.introWrapper} ref={introRef}> */}
+        </div>
+        <div className={styles.introWrapper} ref={introRef}>
           {/* <div ref={timerRef}>
             <Timer />
           </div> */}
@@ -164,8 +164,8 @@ const WelcomeBlock = () => {
             <Landing2 />
           {/* </div> */}
 
-        {/* </div> */}
-      {/* </div> */}
+        </div>
+      </div>
       {/* <div className={styles.sectionThree}></div> */}
     </>
   );
